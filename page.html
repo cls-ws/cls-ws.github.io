@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CLS | index</title>
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<!-- <div class="container"></div> -->
+
+
+		<header>
+
+			<div class="container-fluid">
+				<div class="leftHeader leftHeaderPage">
+					<ul class="list-inline logoContainer">
+						<li>
+							<a href="#"> <img src="images/logo.png" alt="logo"> </a>
+						</li>
+						<li class="slogan">
+							<p>
+								Chauffeur <br> 
+								Location  <br>
+								Services
+							</p>
+						</li>
+				
+					</ul>
+				</div>
+				<div class="rightHeader rightHeaderPage">
+					<p class="textRight">
+						Transport de prestige & chauffeur privé
+					</p>
+				</div>
+			</div>
+			
+		</header>
+
+
+		<!-- NAVBAR -->
+
+		<nav class="navbar navbar-default">
+		  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li><a href="#">Accueil</a></li>
+		        <li><a href="#">société</a></li>
+		        <li><a href="#">Services <span class="hidden-sm">et engagements</span></a></li>
+		        
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Prestations <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#"> Transports de personnes</a></li>
+		            <li><a href="#"> Chauffeur VIP</a></li>
+		            <li><a href="#">Mariage et évènements</a></li>
+		          </ul>
+		        </li>
+
+		        <li><a href="#">Photos</a></li>
+		        <li><a href="#">Actualités</a></li>
+		        <li><a href="#">contact</a></li>
+		        <li><a href="#">plan</a></li>
+
+		      </ul>
+
+		     
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+
+		<!-- END NAVBAR -->
+
+		<div class="content"  id='layout'>
+
+		<div class="container theContent theContentHome">
+
+
+			
+			<div class="row">
+				<div class="col-md-12">
+					<p class="paraSubBox paraSubBoxContent">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente numquam, tempora ducimus repudiandae! Illo molestias nulla, alias ullam. Deleniti magni, beatae at sequi recusandae cum odio odit molestias veniam corporis?
+
+					</p>
+
+				</div>
+			</div>
+
+			<div class="row theRow">
+				<a class="this-link" href="#">
+					<div class="col-md-4 box box1 col-center-block">
+						<span><span class="majescule">T</span>ransport de personnes</span>
+					</div>
+				</a>
+				<a class="this-link" href="#">
+					<div class="col-md-4 box box2 col-center-block">
+						<span><span class="majescule">C</span>hauffeur VIP</span>
+					</div>
+				</a>
+				<a class="this-link" href="#">
+					<div class="col-md-4 box box3 col-center-block">
+						<span><span class="majescule">M</span>ariages et évènements</span>
+					</div>
+				</a>
+			</div>
+
+		</div>
+
+		
+		
+			
+		<div id='layout_footer'></div>
+		</div> <!-- end content -->
+		
+
+		<footer class="text-center" id='footer'>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<a href="#" class="btn-footer btn-adress">
+							7 rue du Marais - 51500 Taissy - Reims / France
+						</a>
+					</div>
+					<div class="col-md-6">
+						<a href="#" class="btn-footer btn-contact">
+							Contactez-nous au  <strong>06 12 06 96 75</strong>
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<a href="#" class="logo-axomedia"><img src="images/logo-axomedia.png" alt="logo"></a>
+					</div>
+					<div class="col-md-8 para-last">
+						Harum trium sententiarum nulli prorsus assentior. Nec enim illa prima vera est, ut, quem ad modum in se quisque sit, sic in amicum sit animatus. Quam multa enim, quae nostra causa numquam faceremus, facimus causa amicorum! Liens - Liens - Liens - Liens - Liens - Liens - Liens - Liens - Liens - Liens - Liens - Liens
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+	
+
+<script src="js/jquery-1.12.4.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/background.cycle.min.js"></script>
+<script src="js/main.js"></script>
+
+
+<script type="text/javascript">
+
+	//var s = skrollr.init({});
+
+	$(function(){
+
+
+		$(".rightHeader").backgroundCycle({
+		            imageUrls: [
+		                'images/header-bg.jpg',
+		                'images/header-bg1.jpg',
+		                'images/header-bg2.jpg'
+		            ],
+		            fadeSpeed: 600,
+		            duration: 5000,
+		            backgroundSize: SCALING_MODE_COVER
+        });
+
+
+	});
+
+	</script>
+
+
+</body>
+</html>
