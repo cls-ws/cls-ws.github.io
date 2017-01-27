@@ -403,7 +403,7 @@ footer div.para-last {
   /* line 494, ../../src/stylesheets/style.scss */
   div.theContent p.paraSubBox {
     margin: 60px 0;
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
   /* line 499, ../../src/stylesheets/style.scss */
   div.theContent p.paraSubBoxContent {
